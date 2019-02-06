@@ -1,0 +1,151 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2b2b2b;
+}
+
+header {
+  full-width: 2000px;
+  height: 0px;
+}
+
+image {
+  border-style: solid;
+  border-color: #6dad24;
+  border-width: thick;
+}
+
+#top {
+    height: 200px;
+    full-width: 1000px;
+}
+
+#bottom {
+    height: 280px;
+}
+
+.pickings {
+  color: black;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid #e6e6e6;
+    }
+
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 620px;
+    float: left;
+}
+
+.third-width {
+    width: 410px;
+    float: left;
+    padding: 0px 0px 0px 0px;
+}
+
+/***** HEADER CODE *****/
+
+
+header {
+    height: 600px;
+    background:
+    background-size:
+}
+
+nav {
+    float: right;
+    padding: 80px 0px;
+}
+nav ul li{
+    display: inline-block;
+    float: clear;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6dad24;
+    padding-right: 30px;
+}
+
+header h1 {
+  padding: 70px 0px; 0px 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #6dad24;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+img  {
+  border: 5px solid color: #6dad24;
+  padding-bottom: 0px;
+}
+
+
+/***** TOP CODE *****/
+
+#top .full-width {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 0;
+}
+
+#top h4 {
+  font-family: 'Source  Sans Pro', sans-serif;
+  font-size: 24px;
+  color: #6dad24;
+  text-transform: uppercase;
+  float: clear;
+  padding: 0px; 0px; 0px; 0px;
+}
+
+
+#top p {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    padding: 0px; 0px; 0px; 10px;
+}
+
+/***** BOTTOM CSS CODE *****/
+
+#bottom .full-width {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+    border-top: 2px solid #e6e6e6;
+}
+
+#bottom p {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #black;
+}
+
+#bottom h3 {
+  text-transform: uppercase;
+  }
+
+#bottom .specials p {
+  color: #6dad24;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+/***** FOOTER *****/
+
+.fresh {
+  font-family: 'Pacifico', cursive;
+  color: #6dad24;
+}
