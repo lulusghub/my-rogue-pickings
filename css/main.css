@@ -6,23 +6,43 @@ body {
 }
 
 header {
-  full-width: 2000px;
+  full-width: 1200px;
   height: 0px;
 }
 
 image {
   border-style: solid;
   border-color: #6dad24;
-  border-width: thick;
+  border-width: 5px;
 }
 
 #top {
-    height: 200px;
-    full-width: 1000px;
+    height: 190px;
+    full-width: 800px;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 
+.welcome {
+  color: #6dad24;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.roaming {
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
 #bottom {
-    height: 280px;
+    height: 240px;
+    border-top: solid;
+    border-width: thin;
+    border-color: #e6e6e6;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .pickings {
@@ -31,7 +51,9 @@ image {
 
 footer {
     text-align: center;
-    border-top: 2px solid #e6e6e6;
+    border-top: solid;
+    border-width: thin;
+    border-color: #e6e6e6;
     }
 
 
@@ -49,7 +71,7 @@ footer {
 }
 
 .third-width {
-    width: 410px;
+    width: 400px;
     float: left;
     padding: 0px 0px 0px 0px;
 }
@@ -58,7 +80,7 @@ footer {
 
 
 header {
-    height: 600px;
+    height: 550px;
     background:
     background-size:
 }
@@ -96,34 +118,22 @@ img  {
 
 /***** TOP CODE *****/
 
-#top .full-width {
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 0px 0;
+#top .full-width
+    padding: 100px 0 100px 0px;
 }
-
-#top h4 {
-  font-family: 'Source  Sans Pro', sans-serif;
-  font-size: 24px;
-  color: #6dad24;
-  text-transform: uppercase;
-  float: clear;
-  padding: 0px; 0px; 0px; 0px;
-}
-
 
 #top p {
-    font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #333333;
-    padding: 0px; 0px; 0px; 10px;
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #black;
 }
+
 
 /***** BOTTOM CSS CODE *****/
 
 #bottom .full-width {
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 50px;
-    border-top: 2px solid #e6e6e6;
+    padding-top: 80px 0px 80px 0px;
 }
 
 #bottom p {
